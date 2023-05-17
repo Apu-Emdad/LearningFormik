@@ -15,3 +15,9 @@ export const basicSchema = yup.object().shape({
     .oneOf([yup.ref("password"), null], "password must match")
     .required("Required"),
 });
+
+/* =======
+yup schema
+1. yub.object({......}) also works.
+2. the .shape({....}) is basically used to concat two object schema.
+=========*/
