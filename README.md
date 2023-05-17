@@ -13,6 +13,9 @@
    />
    ```
 
+2. `{touched} = formik` won't work if we don't initiate `onBlur = {handleBlur}`
+3. See [this documentation](https://formik.org/docs/api/formik#example) to learn about `<Formik />` component.
+
 ## Yup Schema
 
 1. `yup.object({...})` also works.
