@@ -20,3 +20,5 @@
 
 1. `yup.object({...})` also works.
 2. The `.shape({...})` method is basically used to concatenate two object schemas.
+
+## `<Formik/>` component

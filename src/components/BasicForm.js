@@ -29,7 +29,7 @@ const BasicForm = () => {
     isSubmitting,
   } = formik;
 
-  console.log(touched);
+  // console.log(formik);
 
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
